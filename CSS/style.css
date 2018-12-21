@@ -1,0 +1,114 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10px;
+    display: flex;
+    background: #fab31f;
+    text-align: center;
+  }
+    
+  h1 {
+    font-size: 16px;
+    display: block;
+    box-sizing: border-box;
+    margin: 5vh auto;
+    border: 7px solid #139893;
+    text-transform: uppercase;
+    padding: 1em 2em;
+    background-color: #244EA7;
+    font-weight: bold;
+    width: 50%;
+    color: white;
+  }
+  
+  .text {
+    font-size: 2em;
+    color: white;
+    margin: 2vh auto 1vh;
+    padding: 0.1vh 200px;
+  }
+  
+  #PLACE_FOR_CARD {
+    height: auto;
+    width: 35vw;
+    background: #244EA7;
+    display: block;
+    color: red;
+    font-size: 12px;
+    border-radius: 4rem;
+    padding: 7px 7px;
+    margin: auto auto;
+    line-height: 3vh;
+    align-items: center;
+    min-height: 350px;
+    min-width: 200px;
+    position: relative;
+    border: 15px solid white;
+    border: 10px solid #139893;
+  }
+  
+  #randomCards:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px;
+    border: none;
+  }
+  
+.CARD_APPEARANCE {
+    color: red;
+    font-size: 22px;
+}
+
+  #randomCards {
+    min-height: 40px;
+    margin: auto;
+    color: white;
+    display: inline-block;
+    box-sizing: border-box;
+    min-height: 3em;
+    min-width: 15em;
+    height: 5vh;
+    width: 10vw;
+    background-color: #4926AC;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 2em;
+    letter-spacing: 3px;
+    box-shadow: 0 10px 15px 0 rgba(239, 81, 82, .28);
+    padding: 1em 2em; 
+    margin: 5vh auto;
+    font-weight: 600;
+    transition: 0.5s;
+    margin: 2vh;
+    border: none;
+  }
+  
+  .title-style {
+  
+    font-size: 2.5rem;
+    display: inline-block;
+    margin: 10px;
+    font-weight: bold;
+  }
+  
+  .title-des {
+    font-style: italic;
+    padding: 10px;
+  }
+  
+  hr {
+    width: 100%;
+    background-color: black;
+    outline-color: red;
+  }
+  
+  .title-effect {
+    font-size: 20px;
+    color: crimson;
+  }
+  
