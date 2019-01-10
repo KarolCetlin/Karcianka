@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Staatliches" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style2.css">
+</head>
+
+<body>
+    <h3 class="MAIN_SPACE">
+
+        <section id='header'>
+            <h1>Wylosuj kartę zdarzeń z gry fabularnej 'Gwiezdny Pył'.</h1>
+            <h2>Konkretne preferencje możesz określić zaznaczając odpowiednie pole wyboru, zawężająć wybór do
+                kart
+                okręślonej kategori</h2>
+        </section>
+        <section class="STATISTICS_SPACE">
+            <div class='CARDS_DESIGN' id='SPACE_FOR_CARD'></div>
+
+            <section id="BUTTON_LINE">
+                <button type="button" class="BUTTON_FOR_DRAWING" id="BUTTON_PREVIOUS_CARD"><i class="fas fa-undo"></i>
+                </button>
+                <button type="button" class="BUTTON_FOR_DRAWING" id="BUTTON_FOR_DRAWING"><i class="fas fa-dice"></i>
+                    Losuj kartę</button>
+            </section>
+
+            <section id='CHOICE_OPTIONS'>
+                <h2>Wybierz opcje:</h2>
+                <div class="inputGroup">
+                    <div id='CHECKBOX_TEMPLATE'>
+                        <input type="checkbox" class="CHECKBOX_DESIGN" id='CHECKBOX_GUNS'>
+                        <label for="CHECKBOX_GUNS">tylko z puli broń dystansowa</label>
+                    </div>
+                </div>
+
+                <div class="inputGroup">
+                    <div class='CHECKBOX_TEMPLATE'>
+                        <input type="checkbox" value='none' class="CHECKBOX_DESIGN" id='CHECKBOX_MELLE_WEAPONS' />
+                        <label for="slideThree">tylko z puli broń do walki wręcz</label>
+                    </div>
+                </div>
+
+                <form>
+                    <input type="text" id="CARD_SEED" name="" placeholder="Ziarna karty">
+                    <input type="submit" name="" value="Szukaj">
+                </form>
+            </section>
+
+            <section id='STATS_INFO'>
+                <h3> Liczba kart w talii <span class="COUNTER">0</span></h3>
+                <h3>Losowałeś kartę juz <span>0</span> razy</h3>
+                <h3>Wylosowałeś kartę z puli broni dystansowaych już <span>0</span> razy</h3>
+                <h3>Wylosowałeś kartę z puli broni ręcznych już <span>0</span> razy</h3>
+            </section>
+
+
+        </section>
+
+        <script src="js/code2.js"></script>
+</body>
+
+</html>

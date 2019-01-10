@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font */
+/* 
+font-family: 'Staatliches',
+cursive;
+font-family: 'Playfair Display',
+serif; */
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    /* background: #334C78; */
+    background-image: url('img/deska.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ALL HEADER */
+
+#header {
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#header h1 {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 5px;
+    font-size: 35px;
+    color: #f5e4c3;
+}
+
+#header h2 {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 5px;
+    color: #f5e4c3;
+}
+
+/* PLACE FOR CARDS TEXT.  */
+
+.MAIN_SPACE {
+    display: flex;
+    height: 100vh;
+
+
+    /* USTAWIENIA FLEXA */
+
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+
+    width: 70%;
+
+}
+
+.STATISTICS_SPACE {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+
+    align-items: center;
+    justify-content: center;
+
+
+    font-size: 18px;
+    /* border: 3px solid red; */
+}
+
+/* CHECKBOX SECTION */
+
+#CHOICE_OPTIONS {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    height: 7vh;
+    background-image: linear-gradient(to right top, #370521, #60002b, #8b002c, #b30023, #d50505);
+    border-radius: 0 30px 30px 0;
+    font-size: 22px;
+    font-family: 'Staatliches', cursive;
+    color: #f5e4c3;
+}
+
+#CHOICE_OPTIONS h2 {
+    font-size: 22px;
+    margin-left: 20px;
+
+
+}
+
+/* TEXT AREA CONFIGURATION */
+
+#SPACE_FOR_CARD {
+    background-color: #34a7b2;
+    margin: 10px;
+    display: flex;
+    border: #f5e4c3 solid 4px;
+    width: 22%;
+    /* height: 300px; */
+    border-radius: 10%;
+    flex-basis: 450px;
+
+}
+
+/* BUTTON COFIGURATION */
+
+.BUTTON_FOR_DRAWING {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    /* background: #34a7b2; */
+    background-image: linear-gradient(to right top, #370521, #60002b, #8b002c, #b30023, #d50505);
+
+
+    text-shadow: black 1px 1px 1px;
+    font: normal normal bold 20px arial;
+    color: #f5e4c3;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+.BUTTON_FOR_DRAWING:hover,
+.BUTTON_FOR_DRAWING:focus {
+    /* background: #e14594; */
+    background: linear-gradient(to bottom, #3d9ea7, #34a7b2);
+    color: white;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#CHECKBOX_TEMPLATE label {
+    padding-left: 10px;
+}
+
+/* CHECKBOX CONFIGURATION */
+
+#STATS_INFO {
+    display: flex;
+    color: #5b2e35;
+    height: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+}
+
+#STATS_INFO h3 {
+    height: 80px;
+    margin: 5px;
+    padding: 10px 15px;
+    /* border: 2px solid #f5e4c3; */
+}
+
+
+
+/* SEARCH CONFIGURATION */
+form {
+    margin-right: 10px;
+}
+
+input[type='text'] {
+    background: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 0 5%;
+    border-radius: 15px 0 0 15px;
+}
+
+input[type='submit'] {
+    position: relative;
+    border-radius: 0 15px 15px 0;
+    height: 30px;
+    width: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #ffc107;
+    color: #fff;
+}
