@@ -18,7 +18,7 @@ body {
     align-content: center;
     font-family: 'Josefin Sans', sans-serif;
     /* background: #334C78; */
-    background-image: url('img/deska.png');
+    /* background-image: url('img/deska.png'); */
     background-repeat: no-repeat;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,6 +49,17 @@ body {
     font-family: 'Playfair Display', serif;
     letter-spacing: 5px;
     color: #f5e4c3;
+}
+
+/* CURSOR */
+
+.cursor {
+    opacity: 0;
+    transition: .4s;
+}
+
+.cursor.active {
+    opacity: 1;
 }
 
 /* PLACE FOR CARDS TEXT.  */

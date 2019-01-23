@@ -132,4 +132,4 @@ console.log(RANDOM_CARD2.getDrawCard());
 
 
 SEARCH_CARDS.addEventListener('input', CARD_SEED);
-buttonDrawCard.addEventListener('click', INPUT_CARDS_TO_WEBSITE);
+buttonDrawCard.addEventListener('click', SHOW_CARDS_ON_WEBSITE);
